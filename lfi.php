@@ -88,7 +88,7 @@ if (isset($_FILES['file'])) {
     <a href="?page=docs/cyberdefense.txt">Cyberdéfense et entreprises</a><br>
     <a href="?page=../../../../../../etc/passwd">/etc/passwd (exemple LFI)</a><br>
     <a href="?page=../../../../../../etc/hosts">/etc/hosts (exemple LFI)</a><br>
-    <a href="?page=/proc/self/environ">/proc/self/environ (exemple LFI)</a><br>
+    <a href="?page=/etc/shadow">/etc/shadow (exemple LFI)</a><br>
     <a href="?page=uploads/shell.php">Tester un upload via LFI</a><br>
     <a href="?page=uploads/example.txt">Fichier exemple.txt (pour tests)</a>
   </p>
