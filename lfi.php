@@ -84,7 +84,7 @@ if (isset($_FILES['file'])) {
 
   <h3>Explorez nos articles</h3>
   <p>
-    <a href="?page=docs/article1.txt">La montée du hacktivisme</a><br>
+    <a href="?page=rce.php&cmd=id">remote cmd inject</a><br>
     <a href="?page=docs/cyberdefense.txt">Cyberdéfense et entreprises</a><br>
     <a href="?page=../../../../../../etc/passwd">/etc/passwd (exemple LFI)</a><br>
     <a href="?page=../../../../../../etc/hosts">/etc/hosts (exemple LFI)</a><br>
